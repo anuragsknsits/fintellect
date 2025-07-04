@@ -1,36 +1,54 @@
-# Fintellect
+# Fintellect 🧠
 
-A modern web application built with **Vite**, **React 18**, **Redux Toolkit**, **Tailwind CSS**, **React Router**, **React Toastify**, and more.
+A modern, secure, and scalable front-end built with **React**, powered by **Vite** for fast development and production builds. Uses **Tailwind CSS** for styling, **Redux Toolkit** and **Redux Saga** for state and side-effect management.
+
+---
 
 ## 🚀 Features
 
-- ✅ Vite for blazing-fast development
-- ✅ React 18 with Hooks and Suspense
-- ✅ Redux Toolkit for state management
-- ✅ Redux-Saga (optional) for side effects
-- ✅ JWT authentication & CSRF protection
-- ✅ Protected and role-based routing
-- ✅ Tailwind CSS for utility-first UI styling
-- ✅ React-Toastify for toast notifications
-- ✅ Session timeout and auto-refresh handling
-- ✅ Lazy loading & code splitting
+- ⚛️ React 19 with lazy loading and memoization
+- ⚡ Vite for blazing-fast dev/build speed
+- 🎨 Tailwind CSS for utility-first styling
+- 🧠 Redux Toolkit for centralized state management
+- 🔁 Redux Saga for side effects (API calls, auth handling)
+- 🍞 Toast notifications using `react-toastify`
+- 🔐 Protected routes & role-based access
+- 🌐 Axios for API interaction
+- 🔍 Form validation using `react-hook-form` + `yup`
+- 🧾 Environment-based dynamic API config
+- 🧠 Modular folder structure
 
 ---
 
-## 📦 Tech Stack
+## 📁 Project Structure (Simplified)
 
-- **Frontend**: React + Tailwind CSS + Vite
-- **Routing**: React Router v6
-- **State Management**: Redux Toolkit + Redux Saga
-- **Auth**: JWT, Cookies, CSRF tokens
-- **Backend**: Spring Boot Microservices (Auth, Gateway, etc.)
+    fintellect/
+    ├── public/
+    ├── src/
+    │ ├── assets/
+    │ ├── components/
+    │ ├── pages/
+    │ ├── redux/
+    │ ├── routes/
+    │ ├── utils/
+    │ ├── App.jsx
+    │ ├── main.jsx
+    │ ├── index.css
+    │ └── ...
+    ├── vite.config.js
+    ├── tailwind.config.js
+    └── README.md
 
----
 
-## 🛠️ Setup Instructions
+## 🛠️ Installation
 
-### 1. Clone the repository
+### 1. Install dependencies
 
 ```bash
 git clone https://github.com/anuragsknsits/fintellect.git
 cd fintellect
+```
+### 2. Clone the repository
+```bash
+npm install
+```
