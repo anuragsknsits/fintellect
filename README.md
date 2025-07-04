@@ -1,12 +1,36 @@
-# React + Vite
+# Fintellect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application built with **Vite**, **React 18**, **Redux Toolkit**, **Tailwind CSS**, **React Router**, **React Toastify**, and more.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Vite for blazing-fast development
+- ✅ React 18 with Hooks and Suspense
+- ✅ Redux Toolkit for state management
+- ✅ Redux-Saga (optional) for side effects
+- ✅ JWT authentication & CSRF protection
+- ✅ Protected and role-based routing
+- ✅ Tailwind CSS for utility-first UI styling
+- ✅ React-Toastify for toast notifications
+- ✅ Session timeout and auto-refresh handling
+- ✅ Lazy loading & code splitting
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Tech Stack
+
+- **Frontend**: React + Tailwind CSS + Vite
+- **Routing**: React Router v6
+- **State Management**: Redux Toolkit + Redux Saga
+- **Auth**: JWT, Cookies, CSRF tokens
+- **Backend**: Spring Boot Microservices (Auth, Gateway, etc.)
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/anuragsknsits/fintellect.git
+cd fintellect
